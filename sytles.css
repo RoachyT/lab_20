@@ -1,0 +1,132 @@
+.header{
+
+    padding:10px 16px;
+}
+.content{
+    padding:16px;
+}
+
+.sticky
+{
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+
+.sticky + .content{
+    padding-top: 102px;
+}
+
+.headerBox{
+    width:150px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+.backgroundAbout {
+    background-image: url("mohammad-alizade-368770-unsplash.jpg"); 
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: auto; 
+  }
+  .aboutHeader{
+      color:rgb(83, 37, 37);
+      font-size: 100px;
+      text-align: center;
+      padding-bottom: 80px;
+
+  }
+  .aboutInsides{
+      font-size: 50px;
+      color:whitesmoke;
+      padding: 50px, 50px;
+
+  }
+  .backgroundHome {
+    background-image: url("pine-watt-462535-unsplash.jpg"); 
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+  .backgroundPortfolio {
+    background-image: url("samuel-ferrara-318709-unsplash.jpg"); 
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: auto; 
+  }
+  div.transbox {
+    margin: auto;
+    width: 325px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 40px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+  }
+  div.transbox p {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+div.transbox2 {
+  margin: 100px;
+  width: 325px;
+  height: 270px;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left:30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 40px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+}
+div.transbox3 {
+    margin:100;
+    width: 325px;
+    height: 270px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left:30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 40px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+  }
+  .homePic{
+    height: 150px;  
+    width: 150px;
+    padding: 100px;
+    margin: 100px;
+  }
+  .button {
+    opacity: .6;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px;
+    height: 60px;
+    width: 60px;
+
+}
